@@ -1,21 +1,22 @@
-model: yolov8s.pt
+model: yolov8s.pt          # keep 's'; good balance on 6GB
 data: configs/data.yaml
-imgsz: 1280
-epochs: 80
-batch: 16
-device: auto      # auto -> GPU if available, else CPU; or set to 0 / 'cpu'
-patience: 25
+imgsz: 1024                # 1280 may OOM on 6GB; start 1024
+epochs: 40                 # you can raise later
+batch: 8                   # safe starting batch for 6GB
+device: 0                  # <-- force GPU 0
+workers: 4                 # dataloader workers on Windows
+single_cls: true           # since we collapsed labels
+cache: disk                # avoid big RAM caches on CPU
+plots: false               # speed up a bit
 
-# (optional overrides; leave as-is to use defaults in train.py)
-hsv_h: 0.02
-hsv_s: 0.5
-hsv_v: 0.5
-degrees: 15
+# reasonable augs (you can re-enable stronger ones later)
+mosaic: 0.5
+degrees: 10
 translate: 0.1
 scale: 0.6
-shear: 4
+shear: 2
 perspective: 0.0005
-mosaic: 1.0
+hsv_h: 0.02
+hsv_s: 0.4
+hsv_v: 0.4
 close_mosaic: 10
-single_cls: true
-cache: disk
