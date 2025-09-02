@@ -3,3 +3,19 @@ data: configs/data.yaml
 imgsz: 1280
 epochs: 80
 batch: 16
+device: auto      # auto -> GPU if available, else CPU; or set to 0 / 'cpu'
+patience: 25
+
+# (optional overrides; leave as-is to use defaults in train.py)
+hsv_h: 0.02
+hsv_s: 0.5
+hsv_v: 0.5
+degrees: 15
+translate: 0.1
+scale: 0.6
+shear: 4
+perspective: 0.0005
+mosaic: 1.0
+close_mosaic: 10
+single_cls: true
+cache: disk

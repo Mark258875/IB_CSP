@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['-', '- annotate- and create datasets', '- collaborate with your team on computer vision projects', '- collect - organize images', '- understand and search unstructured image data', '0', 'GraffitiDetection - v2 2023-06-04 2-17pm', 'Roboflow is an end-to-end computer vision platform that helps you', 'This dataset was exported via roboflow.com on September 7- 2023 at 8-52 AM GMT']
+
+roboflow:
+  workspace: coding-class
+  project: graffiti-detection-wojd6
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/coding-class/graffiti-detection-wojd6/dataset/2
