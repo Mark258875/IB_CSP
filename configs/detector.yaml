@@ -1,7 +1,7 @@
-model: yolov8s.pt          # keep 's'; good balance on 6GB
+model: runs/detect/train2/weights/best.pt       # keep 's'; good balance on 6GB
 data: configs/data.yaml
-imgsz: 1024                # 1280 may OOM on 6GB; start 1024
-epochs: 40                 # you can raise later
+imgsz: 1152                # 1280 may OOM on 6GB; start 1024
+epochs: 10                 # you can raise later
 batch: 8                   # safe starting batch for 6GB
 device: 0                  # <-- force GPU 0
 workers: 4                 # dataloader workers on Windows
