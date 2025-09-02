@@ -1,0 +1,5 @@
+path: ./data
+train: images/train
+val: images/val
+test: images/test
+names: ["graffiti"]  # start single-class; expand later if needed
