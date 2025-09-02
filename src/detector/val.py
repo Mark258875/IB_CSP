@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-# change if your checkpoint is elsewhere
+#QUANTITATIVE TEST
 MODEL = "runs/detect/train2/weights/best.pt"
 
 if __name__ == "__main__":

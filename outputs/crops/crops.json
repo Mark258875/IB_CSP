@@ -1,0 +1,57 @@
+[
+  {
+    "image_path": "C:\\Users\\Marek I\u0161tok\\Documents\\Visual studio code\\IB_CSP\\data\\images_all_city\\image.jpg",
+    "crop_path": "outputs\\crops\\image_0.jpg",
+    "bbox_xyxy": [
+      39.2624397277832,
+      84.35045623779297,
+      99.92575073242188,
+      111.32470703125
+    ],
+    "score": 0.4787035286426544
+  },
+  {
+    "image_path": "C:\\Users\\Marek I\u0161tok\\Documents\\Visual studio code\\IB_CSP\\data\\images_all_city\\image.jpg",
+    "crop_path": "outputs\\crops\\image_1.jpg",
+    "bbox_xyxy": [
+      80.20987701416016,
+      17.227262496948242,
+      178.5218963623047,
+      162.87701416015625
+    ],
+    "score": 0.43607833981513977
+  },
+  {
+    "image_path": "C:\\Users\\Marek I\u0161tok\\Documents\\Visual studio code\\IB_CSP\\data\\images_all_city\\image.jpg",
+    "crop_path": "outputs\\crops\\image_2.jpg",
+    "bbox_xyxy": [
+      176.71067810058594,
+      50.69456481933594,
+      213.5459442138672,
+      68.16148376464844
+    ],
+    "score": 0.3955780565738678
+  },
+  {
+    "image_path": "C:\\Users\\Marek I\u0161tok\\Documents\\Visual studio code\\IB_CSP\\data\\images_all_city\\image.jpg",
+    "crop_path": "outputs\\crops\\image_3.jpg",
+    "bbox_xyxy": [
+      111.97489166259766,
+      24.977283477783203,
+      174.94151306152344,
+      142.7425537109375
+    ],
+    "score": 0.2546197175979614
+  },
+  {
+    "image_path": "C:\\Users\\Marek I\u0161tok\\Documents\\Visual studio code\\IB_CSP\\data\\images_all_city\\image2.jpg",
+    "crop_path": "outputs\\crops\\image2_0.jpg",
+    "bbox_xyxy": [
+      0.0,
+      0.0,
+      940.0040283203125,
+      851.9442138671875
+    ],
+    "score": 0.7747742533683777
+  }
+]
