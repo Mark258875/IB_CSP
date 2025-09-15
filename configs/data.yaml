@@ -1,5 +1,5 @@
 path: ./data/grafiti-dataset
-train: "C:/Users/Marek Ištok/Documents/Visual studio code/IB_CSP/data/grafiti-dataset/train/images"
-val:   "C:/Users/Marek Ištok/Documents/Visual studio code/IB_CSP/data/grafiti-dataset/valid/images"
-test:  "C:/Users/Marek Ištok/Documents/Visual studio code/IB_CSP/data/grafiti-dataset/test/images"
+train: "C:/Users/istok/Documents/VS_CODE/IB_CSP/data/grafiti-dataset/train/images"
+val:   "C:/Users/istok/Documents/VS_CODE/IB_CSP/data/grafiti-dataset/valid/images"
+test:  "C:/Users/istok/Documents/VS_CODE/IB_CSP/data/grafiti-dataset/test/images"
 names: ["graffiti"]

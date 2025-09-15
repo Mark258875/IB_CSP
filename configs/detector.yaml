@@ -1,8 +1,8 @@
 model: runs/detect/train2/weights/best.pt       # keep 's'; good balance on 6GB
 data: configs/data.yaml
 imgsz: 1152                # 1280 may OOM on 6GB; start 1024
-epochs: 10                 # you can raise later
-batch: 8                   # safe starting batch for 6GB
+epochs: 80                 # you can raise later
+batch: 6                   # safe starting batch for 6GB
 device: 0                  # <-- force GPU 0
 workers: 4                 # dataloader workers on Windows
 single_cls: true           # since we collapsed labels
